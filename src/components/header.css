@@ -1,0 +1,7 @@
+.fondo-imagen{
+    background-image: url(https://images7.alphacoders.com/344/thumb-1920-344344.jpg);
+    z-index: -1;
+    background-position: top;
+    height: 700px;
+    max-height: 800p;
+}
