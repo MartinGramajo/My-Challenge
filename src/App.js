@@ -95,14 +95,13 @@ function App() {
         </div>
       </div>
       <div>
-      <h1 className="text-center text-dark mt-5 mb-2 fs-1">  Our Working Process </h1>
-        <div className=" container d-flex">
+      <h1 className="text-center text-dark mt-3 mb-5 fs-1">  Our Working Process </h1>
+        <div className=" container d-flex col-12 text-center">
           {trabajos.map((trabajo, id) =>
             <Productos key={id} data={trabajo} />
           )}
         </div>
-      </div>      
-
+      </div>
     </div>
   );
 }
