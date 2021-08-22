@@ -1,10 +1,10 @@
-import React from 'react'
+import './banner.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase, faBullhorn, faMedal, faStar } from '@fortawesome/free-solid-svg-icons'
 
 export default function Banner() {
     return (
-        <div className="bg-dark text-white p-5">
+        <div className="color-fondo text-white p-5">
             <div className="container">
                 <div className="row">
                     <div className="col-3 text-center">
