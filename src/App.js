@@ -6,6 +6,7 @@ import Banner from './components/Banner';
 import Article from './components/Article';
 import Service from './components/Service';
 import Productos from './components/Productos';
+import Contacto from './components/Contacto'
 
 
 const servicios = [
@@ -102,6 +103,7 @@ function App() {
           )}
         </div>
       </div>
+      <Contacto />
     </div>
   );
 }
