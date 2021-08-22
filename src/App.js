@@ -7,6 +7,7 @@ import Article from './components/Article';
 import Service from './components/Service';
 import Productos from './components/Productos';
 import Contacto from './components/Contacto'
+import Formulario from './components/Formulario';
 
 
 const servicios = [
@@ -104,6 +105,7 @@ function App() {
         </div>
       </div>
       <Contacto />
+      <Formulario />
     </div>
   );
 }
