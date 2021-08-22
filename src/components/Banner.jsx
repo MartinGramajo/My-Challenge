@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase, faBullhorn, faMedal, faStar } from '@fortawesome/free-solid-svg-icons'
+
 export default function Banner() {
     return (
         <div className="bg-dark text-white p-5">
