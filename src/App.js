@@ -9,7 +9,7 @@ import Productos from './components/Productos';
 import Contacto from './components/Contacto'
 import Formulario from './components/Formulario';
 import Gallery from './components/Gallery';
-
+import Comments from './components/Comments';
 
 const servicios = [
   {
@@ -104,6 +104,23 @@ const imagenes = [
 
 ]
 
+const perfiles = [
+  {
+    image: "https://images.unsplash.com/photo-1518991669955-9c7e78ec80ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    nombre: "Emma S.",
+    comentario: "“JR roofing did a great job on our roof. Brian was very responsive and professional in my initial request for a bid on replacing our old roof. His detailed proposal and followup emails provided several options and competitive prices.”"
+  },
+  {
+    image: "https://images.unsplash.com/photo-1518991669955-9c7e78ec80ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    nombre: "Emma S.",
+    comentario: "“JR roofing did a great job on our roof. Brian was very responsive and professional in my initial request for a bid on replacing our old roof. His detailed proposal and followup emails provided several options and competitive prices.”"
+  },
+  {
+    image: "https://images.unsplash.com/photo-1518991669955-9c7e78ec80ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    nombre: "Emma S.",
+    comentario: "“JR roofing did a great job on our roof. Brian was very responsive and professional in my initial request for a bid on replacing our old roof. His detailed proposal and followup emails provided several options and competitive prices.”"
+  },
+]
 
 
 function App() {
@@ -113,6 +130,7 @@ function App() {
       <Header />
       <Banner />
       <Article />
+
       <div className="mt-5 fondo-service ">
         <h1 className="text-center text-white mt-3 mb-5 fs-1">  Our Services </h1>
         <div className=" container d-flex flex-wrap justify-content-between align-items-center mb-4">
@@ -121,6 +139,7 @@ function App() {
           )}
         </div>
       </div>
+
       <div>
       <h1 className="text-center text-dark mt-3 mb-5 fs-1">  Our Working Process </h1>
         <div className=" container d-flex col-12 text-center">
@@ -131,12 +150,22 @@ function App() {
       </div>
       <Contacto />
       <Formulario />
+
       <div className="mt-3 my-4">
         <h1 className="m-auto text-center">Our Gallery</h1>
       <div className="container d-flex flex-wrap justify-content-center m-auto">
         {imagenes.map((imagen, id) =>
         <Gallery key={id} data={imagen} />
         )}
+        </div>
+      </div>
+
+      <div className="mt-3 my-4 fondo-perfiles">
+        <h1 className="m-auto text-center mt-3 my-4">Valuable Client Reviews</h1>
+        <div className=" container d-flex">
+          {perfiles.map((perfil) =>
+            <Comments data={perfil} />
+          )}
         </div>
       </div>
     </div>
