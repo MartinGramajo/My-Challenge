@@ -10,6 +10,7 @@ import Contacto from './components/Contacto'
 import Formulario from './components/Formulario';
 import Gallery from './components/Gallery';
 import Comments from './components/Comments';
+import Footer from './components/Footer';
 
 const servicios = [
   {
@@ -164,7 +165,9 @@ function App() {
         {imagenes.map((imagen, id) =>
         <Gallery key={id} data={imagen} />
         )}
-        </div>
+      </div>
+      
+      <Footer />
       </div>
   );
 }
