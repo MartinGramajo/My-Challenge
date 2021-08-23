@@ -84,22 +84,22 @@ const trabajos = [
 
 const imagenes = [
   {
-    image: "https://jrroofers.com/static/media/roofing-1-thumb.0595fab5.jpg",
+    img: "https://jrroofers.com/static/media/roofing-1-thumb.0595fab5.jpg",
   },
   {
-    image: "https://jrroofers.com/static/media/roofing-2-thumb.bb1959d6.jpg",
+    img: "https://jrroofers.com/static/media/roofing-2-thumb.bb1959d6.jpg",
   },
   {
-    image: "https://jrroofers.com/static/media/roofing-3-thumb.d0df1fd3.jpg",
+    img: "https://jrroofers.com/static/media/roofing-3-thumb.d0df1fd3.jpg",
   },
   {
-    image: "https://jrroofers.com/static/media/roofing-4-thumb.e9bc3d81.jpg",
+    img: "https://jrroofers.com/static/media/roofing-4-thumb.e9bc3d81.jpg",
   },
   {
-    image: "https://jrroofers.com/static/media/roofing-5-thumb.1a0a216f.jpg",
+    img: "https://jrroofers.com/static/media/roofing-5-thumb.1a0a216f.jpg",
   },
   {
-    image: "https://jrroofers.com/static/media/roofing-6-thumb.7a6cbe1e.jpg",
+    img: "https://jrroofers.com/static/media/roofing-6-thumb.7a6cbe1e.jpg",
   },
 
 ]
@@ -151,24 +151,21 @@ function App() {
       <Contacto />
       <Formulario />
 
-      <div className="mt-3 my-4 bg-light">
-        <h1 className="m-auto text-center mt-3 my-4">Valuable Client Reviews</h1>
-        <div className=" container d-flex">
-          {perfiles.map((perfil) =>
-            <Comments data={perfil} />
+ 
+        <div className="d-flex justify-content-around">
+          {perfiles.map((perfil, i) =>
+            <Comments key={ i } data={perfil} />
           )}
         </div>
-      </div>
 
-      <div className="mt-3 my-4">
-        <h1 className="m-auto text-center">Our Gallery</h1>
-      <div className="container d-flex flex-wrap justify-content-center m-auto">
+
+
+      <div className="container d-flex flex-wrap justify-content-around">
         {imagenes.map((imagen, id) =>
         <Gallery key={id} data={imagen} />
         )}
         </div>
       </div>
-    </div>
   );
 }
 

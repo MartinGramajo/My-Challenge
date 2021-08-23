@@ -6,8 +6,8 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 export default function Comments({ data }) {
     const { image, nombre, comentario } = data;
     return (
-        <div className="container">
-            <Toast>
+        <div className="my-5 mx-1">
+            <Toast className="col-6">
                 <Toast.Header>
                     <Image src={ image } style={{ width: '80px' }} roundedCircle />
                     <strong className="me-auto m-auto"> { nombre }</strong>
