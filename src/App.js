@@ -131,9 +131,9 @@ function App() {
       </div>
       <Contacto />
       <Formulario />
-      <div className="text-center mt-3 my-4 piedra-fondo">
-        <h1>Our Gallery</h1>
-      <div className="container d-flex flex-wrap m-auto">
+      <div className="mt-3 my-4">
+        <h1 className="m-auto text-center">Our Gallery</h1>
+      <div className="container d-flex flex-wrap justify-content-center m-auto">
         {imagenes.map((imagen, id) =>
         <Gallery key={id} data={imagen} />
         )}
