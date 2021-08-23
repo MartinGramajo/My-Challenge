@@ -8,6 +8,7 @@ import Service from './components/Service';
 import Productos from './components/Productos';
 import Contacto from './components/Contacto'
 import Formulario from './components/Formulario';
+import Gallery from './components/Gallery';
 
 
 const servicios = [
@@ -79,7 +80,31 @@ const trabajos = [
     titulo: "Enjoy Peace of Mind",
     descripcion: "Your new rooftop is ready and it's awesome.",
   },
+];
+
+const imagenes = [
+  {
+    image: "https://jrroofers.com/static/media/roofing-1-thumb.0595fab5.jpg",
+  },
+  {
+    image: "https://jrroofers.com/static/media/roofing-2-thumb.bb1959d6.jpg",
+  },
+  {
+    image: "https://jrroofers.com/static/media/roofing-3-thumb.d0df1fd3.jpg",
+  },
+  {
+    image: "https://jrroofers.com/static/media/roofing-4-thumb.e9bc3d81.jpg",
+  },
+  {
+    image: "https://jrroofers.com/static/media/roofing-5-thumb.1a0a216f.jpg",
+  },
+  {
+    image: "https://jrroofers.com/static/media/roofing-6-thumb.7a6cbe1e.jpg",
+  },
+
 ]
+
+
 
 function App() {
   return (
@@ -88,7 +113,7 @@ function App() {
       <Header />
       <Banner />
       <Article />
-      <div className="mt-5 color-fondo">
+      <div className="mt-5 fondo-service ">
         <h1 className="text-center text-white mt-3 mb-5 fs-1">  Our Services </h1>
         <div className=" container d-flex flex-wrap justify-content-between align-items-center mb-4">
           {servicios.map((servicio, i) =>
@@ -106,6 +131,14 @@ function App() {
       </div>
       <Contacto />
       <Formulario />
+      <div className="text-center mt-3 my-4 piedra-fondo">
+        <h1>Our Gallery</h1>
+      <div className="container d-flex flex-wrap m-auto">
+        {imagenes.map((imagen, id) =>
+        <Gallery key={id} data={imagen} />
+        )}
+        </div>
+      </div>
     </div>
   );
 }

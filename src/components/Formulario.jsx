@@ -5,7 +5,7 @@ import { Form, Button } from 'react-bootstrap'
 
 export default function Formulario() {
     return (
-        <div className="d-flex flex-wrap bg-light fondo">
+        <div className="d-flex flex-wrap bg-light fondo mt-3 my-4">
                 <div className="text-dark col-lg-6 col-sm-12 text-center  mt-5 m-auto">
                     <h1>Get In Touch</h1>
                     <div>
