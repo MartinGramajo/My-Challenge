@@ -9,22 +9,16 @@ import { faEnvelope, faMapMarked, faPhone } from '@fortawesome/free-solid-svg-ic
 export default function Formulario() {
     return (
         <div className="d-flex flex-wrap fondo mt-3 my-4">
-                <div className="text-dark text-center  col-lg-6 col-sm-12 text-center mt-5 m-auto">
-                    <h1>Get In Touch</h1>
-                    <div>
-                    <h1><FontAwesomeIcon icon={faMapMarked} /> Location  </h1>
+            <div className="container color-fondo text-white text-center col-lg-6 col-sm-12 text-center mt-5 m-auto">
+                    <h1 className="mb-5 mt-4">Get In Touch</h1>
+                    <h1><FontAwesomeIcon icon={faMapMarked} /> Location </h1>
                     <p> Proudly serving Oakland and nearby areas.</p>
-                    </div>
-                    <div>
                     <h1><FontAwesomeIcon icon={faPhone} /> Phone</h1>
                     <p> 510-361-0509</p>
-                    </div>
-                    <div>
                     <h1> <FontAwesomeIcon icon={faEnvelope} /> Email</h1>
                     <p> contacto@contacto.com</p>
-                    </div>
-                </div>
-                <div style={{
+            </div>
+            <div style={{
                 margin: 'auto',
                 display: 'block',
                 width: 700,
@@ -61,7 +55,7 @@ export default function Formulario() {
                         Click here to submit form
                     </Button>
                 </Form>
-                </div>
             </div>
+        </div>
     )
 }
