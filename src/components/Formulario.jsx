@@ -31,7 +31,7 @@ export default function Formulario() {
                     </div>
                     <Form.Group className="mb-3">
                         <Form.Control type="text"
-                            placeholder="name" />
+                            placeholder="name*" />
                     </Form.Group>
                     <Form.Group className="mb-3">
                         <Form.Control type="email"
