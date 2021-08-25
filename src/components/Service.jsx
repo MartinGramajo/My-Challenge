@@ -8,7 +8,7 @@ export default function Service({ data }) {
                 <div  >
                 <Image style={{ width: '18rem', MaxWidth: '200px'}} variant="top" src={image} />
                 <div className="bg-white">
-                    <p className="m-auto text-center">{titulo}</p>
+                    <p className="m-auto text-center text-white bg-danger">{titulo}</p>
                 </div>
                 </div>
         </div>
