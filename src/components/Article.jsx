@@ -5,7 +5,7 @@ export default function Article() {
     return (
         <div className=" container d-flex flex-wrap mt-5 mb-4 mr-5" id="article">
             <div className="text-white col-lg-6 col-sm-12 m-auto">
-                <Image  src="https://jrroofers.com/static/media/roofing-2.0c0bfeff.jpg" rounded style={{ maxWidth: '500px', height: '450px' }} />
+                <Image  src="https://jrroofers.com/static/media/roofing-2.0c0bfeff.jpg" rounded style={{ maxWidth: '500px', height: '400px' }} />
             </div>
             <div className="text-dark col-lg-6 col-sm-12 mt-5">
                 <h1 className="blockquote-footer">

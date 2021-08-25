@@ -17,7 +17,7 @@ export default function Header() {
             <div style={{
                 margin: 'auto',
                 display: 'block',
-                width: 700,
+                width: 600,
                 padding: 30
             }}>
                 <Form className="bg-light p-5">
