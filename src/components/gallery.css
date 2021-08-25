@@ -1,0 +1,7 @@
+.gallery-image:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.3);
+}
+.gallery-image{
+    overflow: hidden;
+}
