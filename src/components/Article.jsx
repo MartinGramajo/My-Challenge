@@ -3,7 +3,7 @@ import { Image, Button } from "react-bootstrap"
 
 export default function Article() {
     return (
-        <div className=" container d-flex flex-wrap mt-5 mb-4 mr-5">
+        <div className=" container d-flex flex-wrap mt-5 mb-4 mr-5" id="article">
             <div className="text-white col-lg-6 col-sm-12 m-auto">
                 <Image src="https://jrroofers.com/static/media/roofing-2.0c0bfeff.jpg" rounded style={{ maxWidth: '500px', height: '600px' }} />
             </div>

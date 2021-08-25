@@ -5,7 +5,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 export default function Contact() {
     return (
-        <div className="color-fondo text-white p-5">
+        <div className="color-fondo text-white p-5" id="contact">
             <div className="container">
                 <div className="row">
                     <div className="col-6 m-auto">
