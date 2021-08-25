@@ -1,0 +1,23 @@
+.efecto-hover {
+    width: auto;
+        max-width: 500px;
+        margin: 2em auto;
+        overflow: hidden;
+        border: 10px solid #EEE5E5;
+        position: relative;
+}
+
+.efecto-hover-img {
+    width: 100%;
+	height: 100%;
+	margin-bottom: 0px;
+	transition: all 0.4s ease-out;
+	position: relative;
+	z-index: 2;
+}
+
+.efecto-hover-img:hover {
+    transform: scale(1.2, 1.2);
+	z-index: 9;
+};
+

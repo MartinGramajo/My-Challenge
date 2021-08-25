@@ -5,48 +5,30 @@ export default function Services() {
   const servicios = [
     {
       image: "https://jrroofers.com/static/media/repair.f5ca3f92.jpg",
-      titulo: "Roofing Repair Services",
-      descripcion: "Get your Rooftop Repaired",
     },
     {
       image: "https://jrroofers.com/static/media/sunlight.7cf2a671.jpg",
-      titulo: "Skylight Installation",
-      descripcion: "Get Free Quote",
     },
     {
       image: "https://jrroofers.com/static/media/gutter.6fadf4ae.jpg",
-      titulo: "Drain & Gutter Installation",
-      descripcion: "Get In Touch",
     },
     {
-      image: "https://jrroofers.com/static/media/repair.f5ca3f92.jpg",
-      titulo: "Roofing Repair Services",
-      descripcion: "Get your Rooftop Repaired",
+      image: "https://jrroofers.com/static/media/solar.7dcefd9b.jpg",
     },
     {
-      image: "https://jrroofers.com/static/media/sunlight.7cf2a671.jpg",
-      titulo: "Roofing Repair Services",
-      descripcion: "Get your Rooftop Repaired",
+      image: "https://jrroofers.com/static/media/downspout.e5335229.jpeg",
     },
     {
-      image: "https://jrroofers.com/static/media/gutter.6fadf4ae.jpg",
-      titulo: "Roofing Repair Services",
-      descripcion: "Get your Rooftop Repaired",
+      image: "https://jrroofers.com/static/media/flatroof.932f5801.jpg",
     },
     {
-      image: "https://jrroofers.com/static/media/repair.f5ca3f92.jpg",
-      titulo: "Roofing Repair Services",
-      descripcion: "Get your Rooftop Repaired",
+      image: "https://jrroofers.com/static/media/shingles-roof.6de5d173.jpg",
     },
     {
-      image: "https://jrroofers.com/static/media/sunlight.7cf2a671.jpg",
-      titulo: "Roofing Repair Services",
-      descripcion: "Get your Rooftop Repaired",
+      image: "https://jrroofers.com/static/media/gutter-cleaning.c390c4b0.jpeg",
     },
     {
-      image: "https://jrroofers.com/static/media/gutter.6fadf4ae.jpg",
-      titulo: "Roofing Repair Services",
-      descripcion: "Get your Rooftop Repaired",
+      image: "https://jrroofers.com/static/media/chimneys-repairs.74859bd3.jpg",
     },
   ];
 

@@ -1,16 +1,13 @@
-import React from 'react'
+import './service.css'
 import { Image } from 'react-bootstrap'
 
 export default function Service({ data }) {
-    const { image, titulo,  } = data;
+    const { image } = data;
     return (
-        <div className="row mb-3">
-                <div  >
-                <Image style={{ width: '18rem', MaxWidth: '200px'}} variant="top" src={image} />
-                <div className="bg-white">
-                    <p className="m-auto text-center text-white bg-danger">{titulo}</p>
-                </div>
-                </div>
+        <div className="row mb-1">
+            <div className="efecto-hover" >
+                <Image className="efecto-hover-img" style={{ width: '16rem', MaxWidth: '200px' }} variant="top" src={image} />
+            </div>
         </div>
     )
 }
