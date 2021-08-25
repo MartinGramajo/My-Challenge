@@ -8,10 +8,11 @@ import Services from './components/Services';
 import Products from './components/Products';
 import Contact from './components/Contact'
 import Formulario from './components/Formulario';
+import CommentsTitle from './components/CommentsTitle';
 import Comments from './components/Comments';
+import GalleryTitle from './components/GalleryTitle';
 import GalleryImg from './components/GalleryImg';
 import Footer from './components/Footer';
-import CommentsTitle from './components/CommentsTitle';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <Formulario />
       <CommentsTitle />
       <Comments />
+      <GalleryTitle />
       <GalleryImg />
       <Footer />
       </div>
