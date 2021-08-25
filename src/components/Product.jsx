@@ -1,7 +1,7 @@
 
 import { Image } from 'react-bootstrap'
 
-export default function Productos({ data }) {
+export default function Product({ data }) {
     const { image, titulo, descripcion } = data;
     return (
         <div className="d-flex m-auto">
