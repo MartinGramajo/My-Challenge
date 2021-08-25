@@ -1,19 +1,16 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import { Image } from 'react-bootstrap'
 
 export default function Service({ data }) {
-    const { image, titulo, descripcion } = data;
+    const { image, titulo,  } = data;
     return (
-        <div className="row">
-            <Card style={{ width: '18rem' }} className="col-6 col-md-6 col-sm-4 my-3 mt-3">
-                <Card.Img variant="top" src={image} />
-                <Card.Body>
-                    <Card.Title>{titulo}</Card.Title>
-                    <Card.Text>
-                        {descripcion}
-                    </Card.Text>
-                </Card.Body>
-            </Card>
+        <div className="row mb-3">
+                <div  >
+                <Image style={{ width: '18rem', MaxWidth: '200px'}} variant="top" src={image} />
+                <div className="bg-white">
+                    <p className="m-auto text-center">{titulo}</p>
+                </div>
+                </div>
         </div>
     )
 }
