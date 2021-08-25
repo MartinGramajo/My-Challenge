@@ -12,7 +12,7 @@ export default function Contact() {
                         <h1>Get Your Rooftop Repaired Today!</h1>
                         <p>We’d love to earn your business and add you to our list of very satisfied customers!</p>
                     </div>
-                    <div className="col-6 m-auto p-5">
+                    <div className="d-flex justify-content-evenly col-6 m-auto p-5">
                         <Button className="p-4" variant="danger"> <FontAwesomeIcon icon={faPhone} /> 510-361-0509</Button> 
                     </div>
                 </div>
