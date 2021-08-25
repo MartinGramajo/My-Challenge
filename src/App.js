@@ -11,7 +11,7 @@ import Formulario from './components/Formulario';
 import Comments from './components/Comments';
 import GalleryImg from './components/GalleryImg';
 import Footer from './components/Footer';
-import TitleComments from './components/TitleComments';
+import CommentsTitle from './components/CommentsTitle';
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       <Products />
       <Contact />
       <Formulario />
-      <TitleComments />
+      <CommentsTitle />
       <Comments />
       <GalleryImg />
       <Footer />
