@@ -21,11 +21,10 @@ export default function GalleryImg() {
         {
             img: "https://jrroofers.com/static/media/roofing-6-thumb.7a6cbe1e.jpg",
         },
-
     ];
     return (
         <>
-            <div className="container d-flex flex-wrap justify-content-around">
+            <div className="d-flex flex-wrap justify-content-around mx-auto col-md-6">
                 {imagenes.map((imagen, id) =>
                     <Gallery key={id} data={imagen} />
                 )}
