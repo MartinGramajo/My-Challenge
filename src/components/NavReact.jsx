@@ -1,3 +1,4 @@
+import './navreact.css';
 import { Navbar, Container, Nav, Button } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
@@ -19,7 +20,7 @@ export default function NavReact() {
                         </Nav>
                         <Nav>
                             <Nav.Link eventKey={2} href="#memes">
-                                <Button variant="danger"> <FontAwesomeIcon icon={faPhone} /> 510-361-0509  </Button>
+                                <Button className="ov-btn-slide-right" variant="danger"> <FontAwesomeIcon icon={faPhone} /> 510-361-0509  </Button>
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
