@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
-export default function Contacto() {
+export default function Contact() {
     return (
         <div className="color-fondo text-white p-5">
             <div className="container">
