@@ -1,0 +1,8 @@
+.efecto-product:hover {
+    transform: rotate(360deg);
+    border-radius: 40%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #4b1eec;
+    -webkit-box-shadow: 0px 0px 15px 15px #2c1eec;
+    -webkit-transform: rotate(360deg);
+}
