@@ -5,7 +5,7 @@ import { Form, Button } from 'react-bootstrap'
 export default function Header() {
     return (
         <div className="d-flex flex-wrap fondo-imagen">
-            <div className="text-white col-lg-6 col-sm-12 text-center my-auto">
+            <div className="text-white col-lg-6  col-sm-12 col-xs-12 text-center my-auto">
                 <h1>Let Us Solve Your</h1>
                 <h2> Roofing Problems</h2>
                 <p> The best customer in the business, no joke!</p>
@@ -14,10 +14,12 @@ export default function Header() {
                     Call Us Now!
                 </Button>
             </div>
-            <div style={{
+            <div
+                className='col-lg-6'
+                style={{
                 margin: 'auto',
                 display: 'block',
-                width: 600,
+                maxWidth: 800,
                 padding: 30
             }}>
                 <Form className="bg-light p-5">
