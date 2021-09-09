@@ -4,7 +4,7 @@ import { faBriefcase, faBullhorn, faMedal, faStar } from '@fortawesome/free-soli
 
 export default function Banner() {
     return (
-        <div className="color-fondo text-white p-5">
+        <div className="color-fondo text-white mt-5 p-5">
             <div className="container">
                 <div className="row">
                     <div className="col-3 text-center">

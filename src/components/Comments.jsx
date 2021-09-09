@@ -22,7 +22,7 @@ export default function Comments() {
     return (
         <>
             
-            <div className=" container d-flex  flex-wrap justify-content-around">
+            <div className=" container d-flex  flex-wrap justify-content-between">
                 {perfiles.map((perfil, i) =>
                     <Comment key={i} data={perfil} />
                 )}
