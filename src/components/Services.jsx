@@ -39,7 +39,7 @@ export default function Services() {
         <h1 className="text-center text-white mt-3 mb-5 fs-1">  Our Services </h1>
         <div className=" container mb-4">
           <div className="row">
-            <div className="d-flex flex-wrap justify-content-around mx-auto col-md-10 col-sm-12">
+            <div className="d-flex flex-wrap justify-content-between mx-auto col-md-10 col-sm-12">
               {servicios.map((servicio, i) =>
                 <Service key={i} data={servicio} />
               )}
