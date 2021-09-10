@@ -8,7 +8,7 @@ export default function Banner() {
             <div className="container">
                 <div className="row">
                     <div className="col-3 text-center">
-                        <h1> <FontAwesomeIcon icon={faBullhorn} /> 100+</h1>
+                        <h1> <FontAwesomeIcon icon={faBullhorn} /> 1000+</h1>
                         <p> PROJECTS COMPLETED</p>
                     </div>
                     <div className="col-3 text-center ">
