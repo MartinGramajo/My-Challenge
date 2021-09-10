@@ -15,7 +15,7 @@ export default function Comments() {
         },
         {
             image: "/pp.jpg",
-            nombre: "Magoo",
+            nombre: "Mago",
             comentario: "“JR roofing did a great job on our roof. Brian was very responsive and professional in my initial request for a bid on replacing our old roof. His detailed proposal and followup emails provided several options and competitive prices.”"
         },
     ]
