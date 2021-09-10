@@ -12,7 +12,7 @@ function Footer() {
         <hr />
         <div className="row">
           <p className="d-flex justify-content-center">
-            &copy;{new Date().getFullYear()} JR Roofing & Gutter Services. Powered by Embtel Solutions, Inc.
+            &copy;{new Date().getFullYear()} MAGO COMPANY | JR Roofing & Gutter Services. Powered by Embtel Solutions, Inc.
             Terms Of Service | Privacy
           </p>
         </div>
